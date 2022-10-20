@@ -159,6 +159,10 @@
     min-height: 100vh;
 }
 
+.one a {
+  color: #fff;
+}
+
 h1 {
     font-size: 10vw;
   }
