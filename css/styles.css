@@ -68,7 +68,6 @@
   }
   
   .topnav {
-    background-color: rgba(47, 37, 72, 0);
     font-family: 'Urbanist';
     font-weight: bold;
     display: grid;
@@ -84,7 +83,6 @@
   
   .nav-scrolled {
     backdrop-filter: blur(20px);
-    background-color: rgba(0,0,0,0.510);
   }
   
   .holder {
@@ -104,7 +102,6 @@
   }
   
   .topnav a {
-    float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 6px 16px;
@@ -146,10 +143,10 @@
     font-weight: bolder;
   }
 
-  /* End OF NAVBAR */
+  /* END OF NAVBAR */
 
-.one {
-    margin-left: -100vh;
+  /* Hero */
+  .one {
     padding: 0;
     display: flex;
     justify-content: center;
@@ -160,6 +157,11 @@
 
 .one a {
   color: #fff;
+}
+
+.imgmain {
+  padding-left: 10%;
+  padding-right: none;
 }
 
 h1 {
@@ -175,6 +177,7 @@ body{
 
   .main-title {
     font-size: 3rem;
+    margin-left: -20vh;
   }
 
   .mt-highlight {
@@ -193,3 +196,17 @@ body{
       background-position: 400%;
     }
   }
+
+  /* End of hero */
+
+  /* Skill */
+  .two {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+}
+
+  /* End of Skill */
