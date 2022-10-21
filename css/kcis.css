@@ -200,6 +200,14 @@
     transition-duration: 0.5s;
 }
 
+.badge {
+  background-color: #6200ff;
+  color: white;
+  padding: 4px 15px;
+  text-align: center;
+  border-radius: 50px;
+}
+
 /* END OF MAIN */
 
 /* START OF SECTIONS & PARAGRAPHS */
